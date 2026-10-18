@@ -1,0 +1,11 @@
+.env
+.env.*
+.venv/
+__pycache__/
+data/firecrawl/
+data/raw/
+docs/assets/manim/
+analysis/qa/*.png
+analysis/qa/*.jpg
+*.zip
+~$*

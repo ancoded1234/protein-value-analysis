@@ -1,0 +1,12 @@
+﻿source_id,url,type,title,collected,published,local_evidence
+D01,https://prod.danawa.com/info/?pcode=14489303,가격비교 재게시,빙그레 더단백 드링크 초코 250ml (18개) : 다나와 가격비교,2026-10-18T11:14:17.913224+00:00,게시일 미표기,data/firecrawl/bing_correct.md
+D02,https://prod.danawa.com/info/?pcode=12275567,가격비교 재게시,매일유업 셀렉스 프로핏 웨이프로틴 초콜릿 330ml (12개) : 다나와 가격비교,2026-10-18T11:12:30.106258+00:00,게시일 미표기,data/firecrawl/selex_price.md
+D03,https://prod.danawa.com/info/?pcode=18186500,가격비교 재게시,닥터유 단백질 프로 드링크 초코 250ml (12개) : 다나와 가격비교,2026-10-18T11:12:46.208534+00:00,게시일 미표기,data/firecrawl/doctor_price.md
+D04,https://prod.danawa.com/info/?pcode=82470779,가격비교 재게시,정식품 그린비아 프로틴밀 액티브 초코 250ml (18개) : 다나와 가격비교,2026-10-18T11:13:03.220992+00:00,게시일 미표기,data/firecrawl/green_price.md
+D05,https://prod.danawa.com/info/?pcode=21434753,가격비교 재게시,마이밀 퓨로틴 초코맛 250ml (24개) : 다나와 가격비교,2026-10-18T11:13:19.390683+00:00,게시일 미표기,data/firecrawl/mymil_price.md
+D06,https://prod.danawa.com/info/?pcode=92969567,가격비교 재게시,롯데칠성음료 오트몬드 프로틴 초코 제로슈거 250ml (6개) : 다나와 가격비교,2026-10-18T11:14:34.525091+00:00,게시일 미표기,data/firecrawl/oat_six.md
+C01,https://www.coupang.com/vp/products/7411095382?itemId=13466502453&vendorItemId=76137436686,computer-use 판매 화면,"더단백 초코 250mL 18개 / 23,900원·무료배송",2026-10-18,게시일 미표기,data/raw/coupang_bing_ui.txt
+M01,https://productguide.maeil.com/products/wpi,제조사,매일유업 공식 제품 영양정보,2026-10-18T11:15:53.424678+00:00,게시일 미표기,data/firecrawl/selex_official.md
+N01,https://www.edaily.co.kr/News/Read?newsId=02125446642200080,언론,오트몬드 250mL·21g 출시 보도,2026-10-18T11:16:18.622963+00:00,게시일 미표기,data/firecrawl/oat_launch.md
+M02,https://www.orionworld.com/sns/snsList/89?page=9,공식 웹 HTTP 본문,2026-05-13 닥터유PRO 24g→27g 게시물 제목 확인,2026-10-18,2026-05-13,data/raw/doctor_change.txt
+K01,https://isafe.go.kr/DATA/bbs/85/20230808024444967.pdf,공공기관 독립 시험,"한국소비자원 단백질 보충 일반식품 16개 시험·평가, pp.6·15–17",2026-10-18,2023-08-08 (가격 기준 2023-02),data/raw/kca_2023.pdf

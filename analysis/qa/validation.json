@@ -1,0 +1,156 @@
+{
+  "url": "file:///C:/Users/hans0/orca/workspaces/Data_Literacy/lugworm/protein-value-analysis/docs/index.html",
+  "desktop": [
+    {
+      "slide": 1,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 2,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 3,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 4,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 5,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 6,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 7,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 8,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 9,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 10,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 11,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 12,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 13,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "mobile": [
+    {
+      "slide": 1,
+      "overflow_x": 0
+    },
+    {
+      "slide": 2,
+      "overflow_x": 0
+    },
+    {
+      "slide": 3,
+      "overflow_x": 0
+    },
+    {
+      "slide": 4,
+      "overflow_x": 0
+    },
+    {
+      "slide": 5,
+      "overflow_x": 0
+    },
+    {
+      "slide": 6,
+      "overflow_x": 0
+    },
+    {
+      "slide": 7,
+      "overflow_x": 0
+    },
+    {
+      "slide": 8,
+      "overflow_x": 0
+    },
+    {
+      "slide": 9,
+      "overflow_x": 0
+    },
+    {
+      "slide": 10,
+      "overflow_x": 0
+    },
+    {
+      "slide": 11,
+      "overflow_x": 0
+    },
+    {
+      "slide": 12,
+      "overflow_x": 0
+    },
+    {
+      "slide": 13,
+      "overflow_x": 0
+    }
+  ],
+  "errors": [],
+  "office_slides": 13,
+  "office_charts": [
+    {
+      "slide": 7,
+      "values": [
+        1052.2222222222222,
+        1327.7777777777778,
+        1768.2539682539684,
+        2366.6666666666665,
+        2490.833333333333
+      ]
+    },
+    {
+      "slide": 8,
+      "values": [
+        20.2020202020202,
+        19.626168224299064,
+        19.047619047619047,
+        16.666666666666664,
+        15.384615384615383
+      ]
+    }
+  ],
+  "office_reopened": true,
+  "budget_filter": "passed",
+  "video": {
+    "width": 1280,
+    "duration": 5.25,
+    "error": null
+  },
+  "status": "passed"
+}
