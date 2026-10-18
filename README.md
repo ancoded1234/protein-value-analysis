@@ -12,7 +12,7 @@
 |마이밀 퓨로틴 초코|24팩|56,800원|2,367원|11번가|
 |셀렉스 프로핏 웨이프로틴 초콜릿|12팩|29,890원|2,491원|롯데ON|
 
-수집 2026-10-18. 초콜릿 RTD 6개 후보 중 5개 판매 구성·가격 관측 54건. 쿠팡 실제 공개 화면은 computer-use로 확인, 다나와 판매처 본문은 Firecrawl 수집. 네이버페이 판매처 값은 다나와 경유로 구분했다. 셀렉스 공식 영양표 1개와 2023년 한국소비자원 독립 시험 16개를 보완했다. 현재 성분표와 과거 실험값을 혼합하지 않았다. 6팩·24팩 차이와 재게시 가격 한계를 명시했다.
+수집 2026-10-18. 초콜릿 RTD 6개 후보 중 5개 판매 구성·가격 관측 54건. 쿠팡 실제 공개 화면은 computer-use로 확인, 다나와 판매처 본문은 Firecrawl 수집. 네이버페이 판매처 값은 다나와 경유로 구분했다. 셀렉스 공식 영양표, 사용자 제공 더단백 상세 라벨(C02), 2023년 한국소비자원 독립 시험 16개를 보완했다. 현재 성분표와 과거 실험값을 혼합하지 않았다. 6팩·24팩 차이와 재게시 가격 한계를 명시했다.
 
 ## 결과물
 
@@ -25,7 +25,7 @@
 
 ## 재현
 
-Python 3.12, Windows Office PowerPoint. requirements.txt 설치 후 기존 부모 .env의 FIRECRAWL_API_KEY를 읽기만 한다. 원문 캐시를 공개하지 않으므로 Git clone 뒤 재수집이 필요하다. collect.py URL SLUG로 수집하고 products.csv와 sources.csv의 적용 범위를 다시 확인한다. 기존 캐시가 있으면 호출하지 않는다. 브라우저 직접 관측 C01은 가격·수량·배송비를 실제 확인해 비공개 증거를 저장해야 한다.
+Python 3.12, Windows Office PowerPoint. requirements.txt 설치 후 기존 부모 .env의 FIRECRAWL_API_KEY를 읽기만 한다. 원문 캐시를 공개하지 않으므로 Git clone 뒤 재수집이 필요하다. collect.py URL SLUG로 수집하고 products.csv와 sources.csv의 적용 범위를 다시 확인한다. 기존 캐시가 있으면 호출하지 않는다. 브라우저 직접 관측 C01은 가격·수량·배송비를 실제 확인해 비공개 증거를 저장해야 한다. C02는 사용자가 제공한 더단백 상세 영양표이며 data/raw/bing_nutrition_user.png가 필요하다.
 
 ```powershell
 uv venv --python 3.12 .venv

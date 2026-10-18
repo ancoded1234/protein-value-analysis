@@ -6,6 +6,7 @@ D04,https://prod.danawa.com/info/?pcode=82470779,가격비교 재게시,정식�
 D05,https://prod.danawa.com/info/?pcode=21434753,가격비교 재게시,마이밀 퓨로틴 초코맛 250ml (24개) : 다나와 가격비교,2026-10-18T11:13:19.390683+00:00,게시일 미표기,data/firecrawl/mymil_price.md
 D06,https://prod.danawa.com/info/?pcode=92969567,가격비교 재게시,롯데칠성음료 오트몬드 프로틴 초코 제로슈거 250ml (6개) : 다나와 가격비교,2026-10-18T11:14:34.525091+00:00,게시일 미표기,data/firecrawl/oat_six.md
 C01,https://www.coupang.com/vp/products/7411095382?itemId=13466502453&vendorItemId=76137436686,computer-use 판매 화면,"더단백 초코 250mL 18개 / 23,900원·무료배송",2026-10-18,게시일 미표기,data/raw/coupang_bing_ui.txt
+C02,https://www.coupang.com/vp/products/7411095382?itemId=13466502453&vendorItemId=76137436686,사용자 제공 판매페이지 상세 라벨 이미지,더단백 초코 250mL 상세 영양표: 당류 0.8g·단백질 20g·105kcal,2026-10-18,게시일 미표기,data/raw/bing_nutrition_user.png
 M01,https://productguide.maeil.com/products/wpi,제조사,매일유업 공식 제품 영양정보,2026-10-18T11:15:53.424678+00:00,게시일 미표기,data/firecrawl/selex_official.md
 N01,https://www.edaily.co.kr/News/Read?newsId=02125446642200080,언론,오트몬드 250mL·21g 출시 보도,2026-10-18T11:16:18.622963+00:00,게시일 미표기,data/firecrawl/oat_launch.md
 M02,https://www.orionworld.com/sns/snsList/89?page=9,공식 웹 HTTP 본문,2026-05-13 닥터유PRO 24g→27g 게시물 제목 확인,2026-10-18,2026-05-13,data/raw/doctor_change.txt

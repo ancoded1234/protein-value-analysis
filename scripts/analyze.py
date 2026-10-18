@@ -5,7 +5,7 @@ import pandas as pd,numpy as np
 R=Path(__file__).resolve().parents[1];DATE='2026-10-18'
 for d in ['analysis','analysis/figures','presentation','docs/assets']: (R/d).mkdir(parents=True,exist_ok=True)
 SPECS=[
- ('P01','빙그레','더단백 드링크 초코','bing_correct',18,250,20,105,None,True,'당류 수치는 채택한 상품 요약에 없어 비워둠'),
+ ('P01','빙그레','더단백 드링크 초코','bing_correct',18,250,20,105,0.8,True,'사용자 제공 쿠팡 상세 영양표 확인: 250mL·105kcal·단백질20g·당류0.8g. 최초 요약만 확인해 누락한 값 정정'),
  ('P02','매일유업','셀렉스 프로핏 웨이프로틴 초콜릿','selex_price',12,330,20,99,0,True,'제조사 330mL·20g·99kcal와 교차 확인'),
  ('P03','오리온','닥터유 프로 드링크 초코 24g','doctor_price',12,250,24,151,1,False,'공식 2026년 24g→27g 리뉴얼 안내와 가격비교 24g 표기 충돌. 판매 옵션의 세대 미확정으로 순위 제외'),
  ('P04','정식품','그린비아 프로틴밀 액티브 초코','green_price',18,250,20,120,1,True,'영양성분은 가격비교 재게시 자료; 독립 시험값 아님'),
@@ -24,7 +24,7 @@ for pid,brand,name,slug,qty,ml,protein,kcal,sugar,include,note in SPECS:
     a=md.index('상세 스펙');spec=md[a:].split('- [관심]',1)[0]
     assert re.search(r'단백질\s*:\s*'+str(protein)+r'g',spec),spec
     assert str(kcal)+'kcal' in spec
-    products.append(dict(product_id=pid,brand=brand,name=name,flavor='초콜릿 계열',form='RTD 음료',pack_count=qty,volume_ml=ml,protein_g=protein,kcal=kcal,sugar_g=sugar,nutrition_status='verified' if pid=='P02' else 'reported',included=include,source_id=sid,note=note))
+    products.append(dict(product_id=pid,brand=brand,name=name,flavor='초콜릿 계열',form='RTD 음료',pack_count=qty,volume_ml=ml,protein_g=protein,kcal=kcal,sugar_g=sugar,nutrition_status='verified' if pid in ['P01','P02'] else 'reported',included=include,source_id=sid,label_source_id='C02' if pid=='P01' else 'M01' if pid=='P02' else sid,note=note))
     a=md.find('쇼핑몰별 최저가',a)
     if a<0:exclusions.append(dict(source=slug,reason='판매처별 가격 영역 없음'));continue
     section=md[a:];section=re.split(r'#### 최저가 추이|\[\*\*상품리뷰|#### 상품 상세정보',section)[0]
@@ -43,6 +43,8 @@ for pid,brand,name,slug,qty,ml,protein,kcal,sugar,include,note in SPECS:
 assert (R/'data/raw/coupang_bing_ui.txt').exists()
 cu='https://www.coupang.com/vp/products/7411095382?itemId=13466502453&vendorItemId=76137436686'
 source('C01',cu,'computer-use 판매 화면','더단백 초코 250mL 18개 / 23,900원·무료배송','data/raw/coupang_bing_ui.txt')
+assert (R/'data/raw/bing_nutrition_user.png').exists()
+source('C02',cu,'사용자 제공 판매페이지 상세 라벨 이미지','더단백 초코 250mL 상세 영양표: 당류 0.8g·단백질 20g·105kcal','data/raw/bing_nutrition_user.png')
 offers.append(dict(product_id='P01',merchant='쿠팡(판매자 상세 미기록)',price_krw=23900,shipping_krw=0,total_krw=23900,source_id='C01',url=cu,source_type='computer-use 직접 화면',observed=DATE,condition='로그아웃 표시가, 18개 선택·배송비 포함·결제 확인 아님',included=True))
 for sid,slug,title in [('M01','selex_official','매일유업 공식 제품 영양정보'),('M02','doctor_2026_change','오리온 공식 24g→27g 리뉴얼 게시물'),('N01','oat_launch','오트몬드 250mL·21g 출시 보도')]:
     p=R/f'data/firecrawl/{slug}.json'
