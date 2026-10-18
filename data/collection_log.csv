@@ -1,0 +1,12 @@
+﻿cache,url,api_success,page_status,title,used_in_ranking,collected
+bing_correct,https://prod.danawa.com/info/?pcode=14489303,True,200.0,빙그레 더단백 드링크 초코 250ml (18개) : 다나와 가격비교,True,2026-10-18T11:14:17.913224+00:00
+bing_price,https://prod.danawa.com/info/?pcode=70677317,True,200.0,롯데칠성음료 오트몬드 프로틴 140ml 24개 + 프로틴 초코 140ml 24개 : 다나와 가격비교,False,2026-10-18T11:12:13.018006+00:00
+doctor_2026_change,https://www.orionworld.com/sns/snsList/89?page=9,False,,,False,2026-10-18T11:16:06.275690+00:00
+doctor_price,https://prod.danawa.com/info/?pcode=18186500,True,200.0,닥터유 단백질 프로 드링크 초코 250ml (12개) : 다나와 가격비교,False,2026-10-18T11:12:46.208534+00:00
+green_price,https://prod.danawa.com/info/?pcode=82470779,True,200.0,정식품 그린비아 프로틴밀 액티브 초코 250ml (18개) : 다나와 가격비교,True,2026-10-18T11:13:03.220992+00:00
+mymil_price,https://prod.danawa.com/info/?pcode=21434753,True,200.0,마이밀 퓨로틴 초코맛 250ml (24개) : 다나와 가격비교,True,2026-10-18T11:13:19.390683+00:00
+oat_launch,https://www.edaily.co.kr/News/Read?newsId=02125446642200080,True,200.0,"롯데칠성음료, 단백질 음료 ‘오트몬드 프로틴’ 출시",False,2026-10-18T11:16:18.622963+00:00
+oat_price,https://prod.danawa.com/info/?pcode=95425763,True,200.0,롯데칠성음료 오트몬드 프로틴 초코 제로슈거 250ml (24개) : 다나와 가격비교,False,2026-10-18T11:13:35.838609+00:00
+oat_six,https://prod.danawa.com/info/?pcode=92969567,True,200.0,롯데칠성음료 오트몬드 프로틴 초코 제로슈거 250ml (6개) : 다나와 가격비교,True,2026-10-18T11:14:34.525091+00:00
+selex_official,https://productguide.maeil.com/products/wpi,True,200.0,"셀렉스 프로핏 WPI 드링크 초콜릿, 운동 후 마시는 100% WPI | 매일유업",False,2026-10-18T11:15:53.424678+00:00
+selex_price,https://prod.danawa.com/info/?pcode=12275567,True,200.0,매일유업 셀렉스 프로핏 웨이프로틴 초콜릿 330ml (12개) : 다나와 가격비교,True,2026-10-18T11:12:30.106258+00:00

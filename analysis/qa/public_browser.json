@@ -1,0 +1,132 @@
+{
+  "url": "https://ancoded1234.github.io/protein-value-analysis/",
+  "desktop": [
+    {
+      "slide": 1,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 2,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 3,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 4,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 5,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 6,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 7,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 8,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 9,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 10,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 11,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 12,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "slide": 13,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "mobile": [
+    {
+      "slide": 1,
+      "overflow_x": 0
+    },
+    {
+      "slide": 2,
+      "overflow_x": 0
+    },
+    {
+      "slide": 3,
+      "overflow_x": 0
+    },
+    {
+      "slide": 4,
+      "overflow_x": 0
+    },
+    {
+      "slide": 5,
+      "overflow_x": 0
+    },
+    {
+      "slide": 6,
+      "overflow_x": 0
+    },
+    {
+      "slide": 7,
+      "overflow_x": 0
+    },
+    {
+      "slide": 8,
+      "overflow_x": 0
+    },
+    {
+      "slide": 9,
+      "overflow_x": 0
+    },
+    {
+      "slide": 10,
+      "overflow_x": 0
+    },
+    {
+      "slide": 11,
+      "overflow_x": 0
+    },
+    {
+      "slide": 12,
+      "overflow_x": 0
+    },
+    {
+      "slide": 13,
+      "overflow_x": 0
+    }
+  ],
+  "errors": [],
+  "budget_filter": "passed",
+  "video": {
+    "width": 1280,
+    "duration": 5.25,
+    "error": null
+  },
+  "status": "passed"
+}
